@@ -1,0 +1,16 @@
+# Dependências fixadas no ambiente conda `datascience` (Etapa 0 executada)
+pandas==2.3.3
+numpy==2.3.5
+matplotlib==3.10.8
+seaborn==0.13.2
+scipy==1.16.3
+scikit-learn==1.7.2
+statsmodels==0.14.5
+pyarrow==24.0.0
+ipykernel==7.2.0
+
+# Bibliotecas previstas para as próximas etapas (a confirmar/instalar no ambiente `datascience` antes do uso):
+# tslearn
+# dtaidistance
+# stumpy
+# pmdarima

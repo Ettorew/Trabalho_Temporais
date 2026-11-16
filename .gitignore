@@ -1,0 +1,14 @@
+# Dados brutos (arquivo LD2011_2014.txt tem ~679 MB, acima do limite do GitHub)
+Dados/bruto/*
+!Dados/bruto/.gitkeep
+
+# Caches binários pesados (ex.: matrizes DTW)
+Resultados/*.npy
+
+# Python / Jupyter / Sistema
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.DS_Store
+*.log
