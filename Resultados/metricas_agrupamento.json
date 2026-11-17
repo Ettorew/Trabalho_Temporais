@@ -1,0 +1,2372 @@
+{
+  "semente": 42,
+  "dtw": {
+    "n_series": 154,
+    "comprimento_serie": 1461,
+    "n_pares_unicos": 11781,
+    "restricao_global": "sakoe_chiba",
+    "sakoe_chiba_radius_dias": 7,
+    "carregado_do_cache": true,
+    "tempo_calculo_seg": 0.0,
+    "caminho_cache": "Resultados/matriz_dtw_diario_154.npy",
+    "distancia_min_nao_nula": 9.4054,
+    "distancia_mediana": 23.8076,
+    "distancia_media": 26.4464,
+    "distancia_max": 71.8912
+  },
+  "metodos": {
+    "average": {
+      "2": {
+        "k": 2,
+        "altura_corte_dendrograma": 45.3354,
+        "silhueta_media": 0.486,
+        "n_negativos": 0,
+        "tamanhos_clusters": [
+          147,
+          7
+        ],
+        "clusters": [
+          {
+            "cluster": 1,
+            "tamanho": 147,
+            "silhueta_media": 0.4974,
+            "medoide": "MT_206"
+          },
+          {
+            "cluster": 2,
+            "tamanho": 7,
+            "silhueta_media": 0.245,
+            "medoide": "MT_188"
+          }
+        ],
+        "series_negativas": []
+      },
+      "3": {
+        "k": 3,
+        "altura_corte_dendrograma": 40.8684,
+        "silhueta_media": 0.4759,
+        "n_negativos": 0,
+        "tamanhos_clusters": [
+          147,
+          6,
+          1
+        ],
+        "clusters": [
+          {
+            "cluster": 1,
+            "tamanho": 147,
+            "silhueta_media": 0.491,
+            "medoide": "MT_206"
+          },
+          {
+            "cluster": 2,
+            "tamanho": 6,
+            "silhueta_media": 0.1858,
+            "medoide": "MT_188"
+          },
+          {
+            "cluster": 3,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_174"
+          }
+        ],
+        "series_negativas": []
+      },
+      "4": {
+        "k": 4,
+        "altura_corte_dendrograma": 38.824,
+        "silhueta_media": 0.4602,
+        "n_negativos": 0,
+        "tamanhos_clusters": [
+          147,
+          5,
+          1,
+          1
+        ],
+        "clusters": [
+          {
+            "cluster": 1,
+            "tamanho": 147,
+            "silhueta_media": 0.4756,
+            "medoide": "MT_206"
+          },
+          {
+            "cluster": 2,
+            "tamanho": 5,
+            "silhueta_media": 0.1922,
+            "medoide": "MT_188"
+          },
+          {
+            "cluster": 3,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_249"
+          },
+          {
+            "cluster": 4,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_174"
+          }
+        ],
+        "series_negativas": []
+      },
+      "5": {
+        "k": 5,
+        "altura_corte_dendrograma": 37.6336,
+        "silhueta_media": 0.4307,
+        "n_negativos": 2,
+        "tamanhos_clusters": [
+          147,
+          4,
+          1,
+          1,
+          1
+        ],
+        "clusters": [
+          {
+            "cluster": 1,
+            "tamanho": 147,
+            "silhueta_media": 0.4436,
+            "medoide": "MT_206"
+          },
+          {
+            "cluster": 2,
+            "tamanho": 4,
+            "silhueta_media": 0.2788,
+            "medoide": "MT_188"
+          },
+          {
+            "cluster": 3,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_156"
+          },
+          {
+            "cluster": 4,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_249"
+          },
+          {
+            "cluster": 5,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_174"
+          }
+        ],
+        "series_negativas": [
+          {
+            "cliente": "MT_158",
+            "cluster": 1,
+            "silhueta": -0.1108
+          },
+          {
+            "cliente": "MT_162",
+            "cluster": 1,
+            "silhueta": -0.0901
+          }
+        ]
+      },
+      "6": {
+        "k": 6,
+        "altura_corte_dendrograma": 34.7305,
+        "silhueta_media": 0.3548,
+        "n_negativos": 1,
+        "tamanhos_clusters": [
+          5,
+          142,
+          4,
+          1,
+          1,
+          1
+        ],
+        "clusters": [
+          {
+            "cluster": 1,
+            "tamanho": 5,
+            "silhueta_media": 0.2263,
+            "medoide": "MT_158"
+          },
+          {
+            "cluster": 2,
+            "tamanho": 142,
+            "silhueta_media": 0.369,
+            "medoide": "MT_196"
+          },
+          {
+            "cluster": 3,
+            "tamanho": 4,
+            "silhueta_media": 0.2788,
+            "medoide": "MT_188"
+          },
+          {
+            "cluster": 4,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_156"
+          },
+          {
+            "cluster": 5,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_249"
+          },
+          {
+            "cluster": 6,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_174"
+          }
+        ],
+        "series_negativas": [
+          {
+            "cliente": "MT_290",
+            "cluster": 2,
+            "silhueta": -0.0194
+          }
+        ]
+      },
+      "7": {
+        "k": 7,
+        "altura_corte_dendrograma": 31.8939,
+        "silhueta_media": 0.2882,
+        "n_negativos": 1,
+        "tamanhos_clusters": [
+          5,
+          11,
+          131,
+          4,
+          1,
+          1,
+          1
+        ],
+        "clusters": [
+          {
+            "cluster": 1,
+            "tamanho": 5,
+            "silhueta_media": 0.1906,
+            "medoide": "MT_158"
+          },
+          {
+            "cluster": 2,
+            "tamanho": 11,
+            "silhueta_media": 0.1548,
+            "medoide": "MT_267"
+          },
+          {
+            "cluster": 3,
+            "tamanho": 131,
+            "silhueta_media": 0.31,
+            "medoide": "MT_206"
+          },
+          {
+            "cluster": 4,
+            "tamanho": 4,
+            "silhueta_media": 0.2788,
+            "medoide": "MT_188"
+          },
+          {
+            "cluster": 5,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_156"
+          },
+          {
+            "cluster": 6,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_249"
+          },
+          {
+            "cluster": 7,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_174"
+          }
+        ],
+        "series_negativas": [
+          {
+            "cliente": "MT_300",
+            "cluster": 3,
+            "silhueta": -0.0155
+          }
+        ]
+      },
+      "8": {
+        "k": 8,
+        "altura_corte_dendrograma": 31.2336,
+        "silhueta_media": 0.2543,
+        "n_negativos": 2,
+        "tamanhos_clusters": [
+          5,
+          11,
+          130,
+          1,
+          4,
+          1,
+          1,
+          1
+        ],
+        "clusters": [
+          {
+            "cluster": 1,
+            "tamanho": 5,
+            "silhueta_media": 0.1902,
+            "medoide": "MT_158"
+          },
+          {
+            "cluster": 2,
+            "tamanho": 11,
+            "silhueta_media": 0.1538,
+            "medoide": "MT_267"
+          },
+          {
+            "cluster": 3,
+            "tamanho": 130,
+            "silhueta_media": 0.2723,
+            "medoide": "MT_206"
+          },
+          {
+            "cluster": 4,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_166"
+          },
+          {
+            "cluster": 5,
+            "tamanho": 4,
+            "silhueta_media": 0.2788,
+            "medoide": "MT_188"
+          },
+          {
+            "cluster": 6,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_156"
+          },
+          {
+            "cluster": 7,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_249"
+          },
+          {
+            "cluster": 8,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_174"
+          }
+        ],
+        "series_negativas": [
+          {
+            "cliente": "MT_300",
+            "cluster": 3,
+            "silhueta": -0.0124
+          },
+          {
+            "cliente": "MT_124",
+            "cluster": 1,
+            "silhueta": -0.0008
+          }
+        ]
+      },
+      "9": {
+        "k": 9,
+        "altura_corte_dendrograma": 30.7815,
+        "silhueta_media": 0.2442,
+        "n_negativos": 4,
+        "tamanhos_clusters": [
+          3,
+          2,
+          11,
+          130,
+          1,
+          4,
+          1,
+          1,
+          1
+        ],
+        "clusters": [
+          {
+            "cluster": 1,
+            "tamanho": 3,
+            "silhueta_media": 0.3817,
+            "medoide": "MT_158"
+          },
+          {
+            "cluster": 2,
+            "tamanho": 2,
+            "silhueta_media": 0.0741,
+            "medoide": "MT_124"
+          },
+          {
+            "cluster": 3,
+            "tamanho": 11,
+            "silhueta_media": 0.1436,
+            "medoide": "MT_267"
+          },
+          {
+            "cluster": 4,
+            "tamanho": 130,
+            "silhueta_media": 0.2586,
+            "medoide": "MT_206"
+          },
+          {
+            "cluster": 5,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_166"
+          },
+          {
+            "cluster": 6,
+            "tamanho": 4,
+            "silhueta_media": 0.2788,
+            "medoide": "MT_188"
+          },
+          {
+            "cluster": 7,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_156"
+          },
+          {
+            "cluster": 8,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_249"
+          },
+          {
+            "cluster": 9,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_174"
+          }
+        ],
+        "series_negativas": [
+          {
+            "cliente": "MT_169",
+            "cluster": 4,
+            "silhueta": -0.0543
+          },
+          {
+            "cliente": "MT_300",
+            "cluster": 4,
+            "silhueta": -0.0124
+          },
+          {
+            "cliente": "MT_172",
+            "cluster": 4,
+            "silhueta": -0.007
+          },
+          {
+            "cliente": "MT_180",
+            "cluster": 3,
+            "silhueta": -0.0054
+          }
+        ]
+      },
+      "10": {
+        "k": 10,
+        "altura_corte_dendrograma": 30.7338,
+        "silhueta_media": 0.2417,
+        "n_negativos": 4,
+        "tamanhos_clusters": [
+          3,
+          2,
+          11,
+          130,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1
+        ],
+        "clusters": [
+          {
+            "cluster": 1,
+            "tamanho": 3,
+            "silhueta_media": 0.3817,
+            "medoide": "MT_158"
+          },
+          {
+            "cluster": 2,
+            "tamanho": 2,
+            "silhueta_media": 0.0741,
+            "medoide": "MT_124"
+          },
+          {
+            "cluster": 3,
+            "tamanho": 11,
+            "silhueta_media": 0.1436,
+            "medoide": "MT_267"
+          },
+          {
+            "cluster": 4,
+            "tamanho": 130,
+            "silhueta_media": 0.2586,
+            "medoide": "MT_206"
+          },
+          {
+            "cluster": 5,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_166"
+          },
+          {
+            "cluster": 6,
+            "tamanho": 3,
+            "silhueta_media": 0.2416,
+            "medoide": "MT_316"
+          },
+          {
+            "cluster": 7,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_187"
+          },
+          {
+            "cluster": 8,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_156"
+          },
+          {
+            "cluster": 9,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_249"
+          },
+          {
+            "cluster": 10,
+            "tamanho": 1,
+            "silhueta_media": 0.0,
+            "medoide": "MT_174"
+          }
+        ],
+        "series_negativas": [
+          {
+            "cliente": "MT_169",
+            "cluster": 4,
+            "silhueta": -0.0543
+          },
+          {
+            "cliente": "MT_300",
+            "cluster": 4,
+            "silhueta": -0.0124
+          },
+          {
+            "cliente": "MT_172",
+            "cluster": 4,
+            "silhueta": -0.007
+          },
+          {
+            "cliente": "MT_180",
+            "cluster": 3,
+            "silhueta": -0.0054
+          }
+        ]
+      }
+    },
+    "ward": {
+      "2": {
+        "k": 2,
+        "altura_corte_dendrograma": 127.4361,
+        "silhueta_media": 0.486,
+        "n_negativos": 0,
+        "tamanhos_clusters": [
+          7,
+          147
+        ],
+        "clusters": [
+          {
+            "cluster": 1,
+            "tamanho": 7,
+            "silhueta_media": 0.245,
+            "medoide": "MT_188"
+          },
+          {
+            "cluster": 2,
+            "tamanho": 147,
+            "silhueta_media": 0.4974,
+            "medoide": "MT_206"
+          }
+        ],
+        "series_negativas": []
+      },
+      "3": {
+        "k": 3,
+        "altura_corte_dendrograma": 99.1977,
+        "silhueta_media": 0.32,
+        "n_negativos": 3,
+        "tamanhos_clusters": [
+          7,
+          13,
+          134
+        ],
+        "clusters": [
+          {
+            "cluster": 1,
+            "tamanho": 7,
+            "silhueta_media": 0.234,
+            "medoide": "MT_188"
+          },
+          {
+            "cluster": 2,
+            "tamanho": 13,
+            "silhueta_media": 0.1251,
+            "medoide": "MT_267"
+          },
+          {
+            "cluster": 3,
+            "tamanho": 134,
+            "silhueta_media": 0.3434,
+            "medoide": "MT_206"
+          }
+        ],
+        "series_negativas": [
+          {
+            "cliente": "MT_292",
+            "cluster": 2,
+            "silhueta": -0.0619
+          },
+          {
+            "cliente": "MT_161",
+            "cluster": 3,
+            "silhueta": -0.0444
+          },
+          {
+            "cliente": "MT_304",
+            "cluster": 2,
+            "silhueta": -0.0256
+          }
+        ]
+      },
+      "4": {
+        "k": 4,
+        "altura_corte_dendrograma": 74.9629,
+        "silhueta_media": 0.0874,
+        "n_negativos": 36,
+        "tamanhos_clusters": [
+          7,
+          13,
+          44,
+          90
+        ],
+        "clusters": [
+          {
+            "cluster": 1,
+            "tamanho": 7,
+            "silhueta_media": 0.191,
+            "medoide": "MT_188"
+          },
+          {
+            "cluster": 2,
+            "tamanho": 13,
+            "silhueta_media": 0.093,
+            "medoide": "MT_267"
+          },
+          {
+            "cluster": 3,
+            "tamanho": 44,
+            "silhueta_media": 0.1755,
+            "medoide": "MT_318"
+          },
+          {
+            "cluster": 4,
+            "tamanho": 90,
+            "silhueta_media": 0.0355,
+            "medoide": "MT_326"
+          }
+        ],
+        "series_negativas": [
+          {
+            "cliente": "MT_211",
+            "cluster": 4,
+            "silhueta": -0.1605
+          },
+          {
+            "cliente": "MT_323",
+            "cluster": 4,
+            "silhueta": -0.1586
+          },
+          {
+            "cliente": "MT_175",
+            "cluster": 4,
+            "silhueta": -0.154
+          },
+          {
+            "cliente": "MT_282",
+            "cluster": 4,
+            "silhueta": -0.1228
+          },
+          {
+            "cliente": "MT_199",
+            "cluster": 4,
+            "silhueta": -0.1202
+          },
+          {
+            "cliente": "MT_321",
+            "cluster": 4,
+            "silhueta": -0.1139
+          },
+          {
+            "cliente": "MT_206",
+            "cluster": 4,
+            "silhueta": -0.1041
+          },
+          {
+            "cliente": "MT_245",
+            "cluster": 4,
+            "silhueta": -0.099
+          },
+          {
+            "cliente": "MT_275",
+            "cluster": 4,
+            "silhueta": -0.0888
+          },
+          {
+            "cliente": "MT_246",
+            "cluster": 4,
+            "silhueta": -0.0838
+          },
+          {
+            "cliente": "MT_286",
+            "cluster": 4,
+            "silhueta": -0.0774
+          },
+          {
+            "cliente": "MT_292",
+            "cluster": 2,
+            "silhueta": -0.0749
+          },
+          {
+            "cliente": "MT_226",
+            "cluster": 4,
+            "silhueta": -0.0741
+          },
+          {
+            "cliente": "MT_277",
+            "cluster": 4,
+            "silhueta": -0.0666
+          },
+          {
+            "cliente": "MT_124",
+            "cluster": 4,
+            "silhueta": -0.0653
+          },
+          {
+            "cliente": "MT_212",
+            "cluster": 4,
+            "silhueta": -0.0649
+          },
+          {
+            "cliente": "MT_231",
+            "cluster": 4,
+            "silhueta": -0.0641
+          },
+          {
+            "cliente": "MT_304",
+            "cluster": 2,
+            "silhueta": -0.0492
+          },
+          {
+            "cliente": "MT_272",
+            "cluster": 4,
+            "silhueta": -0.0439
+          },
+          {
+            "cliente": "MT_310",
+            "cluster": 4,
+            "silhueta": -0.0404
+          },
+          {
+            "cliente": "MT_314",
+            "cluster": 4,
+            "silhueta": -0.0392
+          },
+          {
+            "cliente": "MT_270",
+            "cluster": 4,
+            "silhueta": -0.0374
+          },
+          {
+            "cliente": "MT_203",
+            "cluster": 4,
+            "silhueta": -0.035
+          },
+          {
+            "cliente": "MT_218",
+            "cluster": 4,
+            "silhueta": -0.0332
+          },
+          {
+            "cliente": "MT_208",
+            "cluster": 4,
+            "silhueta": -0.0324
+          },
+          {
+            "cliente": "MT_189",
+            "cluster": 4,
+            "silhueta": -0.0294
+          },
+          {
+            "cliente": "MT_278",
+            "cluster": 4,
+            "silhueta": -0.029
+          },
+          {
+            "cliente": "MT_202",
+            "cluster": 4,
+            "silhueta": -0.0285
+          },
+          {
+            "cliente": "MT_313",
+            "cluster": 4,
+            "silhueta": -0.0266
+          },
+          {
+            "cliente": "MT_320",
+            "cluster": 4,
+            "silhueta": -0.0223
+          },
+          {
+            "cliente": "MT_266",
+            "cluster": 4,
+            "silhueta": -0.018
+          },
+          {
+            "cliente": "MT_205",
+            "cluster": 4,
+            "silhueta": -0.016
+          },
+          {
+            "cliente": "MT_196",
+            "cluster": 4,
+            "silhueta": -0.0116
+          },
+          {
+            "cliente": "MT_274",
+            "cluster": 4,
+            "silhueta": -0.0102
+          },
+          {
+            "cliente": "MT_303",
+            "cluster": 4,
+            "silhueta": -0.0078
+          },
+          {
+            "cliente": "MT_238",
+            "cluster": 4,
+            "silhueta": -0.0
+          }
+        ]
+      },
+      "5": {
+        "k": 5,
+        "altura_corte_dendrograma": 63.0829,
+        "silhueta_media": 0.0768,
+        "n_negativos": 35,
+        "tamanhos_clusters": [
+          7,
+          13,
+          44,
+          43,
+          47
+        ],
+        "clusters": [
+          {
+            "cluster": 1,
+            "tamanho": 7,
+            "silhueta_media": 0.1886,
+            "medoide": "MT_188"
+          },
+          {
+            "cluster": 2,
+            "tamanho": 13,
+            "silhueta_media": 0.0704,
+            "medoide": "MT_267"
+          },
+          {
+            "cluster": 3,
+            "tamanho": 44,
+            "silhueta_media": 0.1442,
+            "medoide": "MT_318"
+          },
+          {
+            "cluster": 4,
+            "tamanho": 43,
+            "silhueta_media": 0.0705,
+            "medoide": "MT_326"
+          },
+          {
+            "cluster": 5,
+            "tamanho": 47,
+            "silhueta_media": 0.0046,
+            "medoide": "MT_206"
+          }
+        ],
+        "series_negativas": [
+          {
+            "cliente": "MT_323",
+            "cluster": 5,
+            "silhueta": -0.1451
+          },
+          {
+            "cliente": "MT_292",
+            "cluster": 2,
+            "silhueta": -0.134
+          },
+          {
+            "cliente": "MT_175",
+            "cluster": 4,
+            "silhueta": -0.1265
+          },
+          {
+            "cliente": "MT_211",
+            "cluster": 5,
+            "silhueta": -0.1167
+          },
+          {
+            "cliente": "MT_199",
+            "cluster": 5,
+            "silhueta": -0.1054
+          },
+          {
+            "cliente": "MT_282",
+            "cluster": 4,
+            "silhueta": -0.1023
+          },
+          {
+            "cliente": "MT_321",
+            "cluster": 5,
+            "silhueta": -0.0967
+          },
+          {
+            "cliente": "MT_277",
+            "cluster": 5,
+            "silhueta": -0.0841
+          },
+          {
+            "cliente": "MT_304",
+            "cluster": 2,
+            "silhueta": -0.083
+          },
+          {
+            "cliente": "MT_246",
+            "cluster": 5,
+            "silhueta": -0.0746
+          },
+          {
+            "cliente": "MT_256",
+            "cluster": 5,
+            "silhueta": -0.0658
+          },
+          {
+            "cliente": "MT_206",
+            "cluster": 5,
+            "silhueta": -0.0635
+          },
+          {
+            "cliente": "MT_314",
+            "cluster": 4,
+            "silhueta": -0.06
+          },
+          {
+            "cliente": "MT_231",
+            "cluster": 5,
+            "silhueta": -0.058
+          },
+          {
+            "cliente": "MT_275",
+            "cluster": 5,
+            "silhueta": -0.0452
+          },
+          {
+            "cliente": "MT_212",
+            "cluster": 5,
+            "silhueta": -0.0446
+          },
+          {
+            "cliente": "MT_227",
+            "cluster": 3,
+            "silhueta": -0.0443
+          },
+          {
+            "cliente": "MT_306",
+            "cluster": 5,
+            "silhueta": -0.0417
+          },
+          {
+            "cliente": "MT_182",
+            "cluster": 3,
+            "silhueta": -0.0399
+          },
+          {
+            "cliente": "MT_313",
+            "cluster": 5,
+            "silhueta": -0.0369
+          },
+          {
+            "cliente": "MT_286",
+            "cluster": 5,
+            "silhueta": -0.0368
+          },
+          {
+            "cliente": "MT_261",
+            "cluster": 5,
+            "silhueta": -0.0345
+          },
+          {
+            "cliente": "MT_189",
+            "cluster": 4,
+            "silhueta": -0.0344
+          },
+          {
+            "cliente": "MT_295",
+            "cluster": 2,
+            "silhueta": -0.0297
+          },
+          {
+            "cliente": "MT_248",
+            "cluster": 5,
+            "silhueta": -0.0265
+          },
+          {
+            "cliente": "MT_328",
+            "cluster": 4,
+            "silhueta": -0.024
+          },
+          {
+            "cliente": "MT_252",
+            "cluster": 5,
+            "silhueta": -0.0201
+          },
+          {
+            "cliente": "MT_202",
+            "cluster": 5,
+            "silhueta": -0.0181
+          },
+          {
+            "cliente": "MT_300",
+            "cluster": 5,
+            "silhueta": -0.0167
+          },
+          {
+            "cliente": "MT_124",
+            "cluster": 5,
+            "silhueta": -0.016
+          },
+          {
+            "cliente": "MT_215",
+            "cluster": 3,
+            "silhueta": -0.0024
+          },
+          {
+            "cliente": "MT_245",
+            "cluster": 5,
+            "silhueta": -0.0024
+          },
+          {
+            "cliente": "MT_274",
+            "cluster": 4,
+            "silhueta": -0.0022
+          },
+          {
+            "cliente": "MT_317",
+            "cluster": 5,
+            "silhueta": -0.002
+          },
+          {
+            "cliente": "MT_208",
+            "cluster": 5,
+            "silhueta": -0.0019
+          }
+        ]
+      },
+      "6": {
+        "k": 6,
+        "altura_corte_dendrograma": 59.0507,
+        "silhueta_media": 0.0859,
+        "n_negativos": 35,
+        "tamanhos_clusters": [
+          7,
+          3,
+          10,
+          44,
+          43,
+          47
+        ],
+        "clusters": [
+          {
+            "cluster": 1,
+            "tamanho": 7,
+            "silhueta_media": 0.1746,
+            "medoide": "MT_188"
+          },
+          {
+            "cluster": 2,
+            "tamanho": 3,
+            "silhueta_media": 0.4598,
+            "medoide": "MT_158"
+          },
+          {
+            "cluster": 3,
+            "tamanho": 10,
+            "silhueta_media": 0.1187,
+            "medoide": "MT_267"
+          },
+          {
+            "cluster": 4,
+            "tamanho": 44,
+            "silhueta_media": 0.1442,
+            "medoide": "MT_318"
+          },
+          {
+            "cluster": 5,
+            "tamanho": 43,
+            "silhueta_media": 0.0698,
+            "medoide": "MT_326"
+          },
+          {
+            "cluster": 6,
+            "tamanho": 47,
+            "silhueta_media": 0.002,
+            "medoide": "MT_206"
+          }
+        ],
+        "series_negativas": [
+          {
+            "cliente": "MT_323",
+            "cluster": 6,
+            "silhueta": -0.1451
+          },
+          {
+            "cliente": "MT_175",
+            "cluster": 5,
+            "silhueta": -0.1265
+          },
+          {
+            "cliente": "MT_211",
+            "cluster": 6,
+            "silhueta": -0.1167
+          },
+          {
+            "cliente": "MT_199",
+            "cluster": 6,
+            "silhueta": -0.1054
+          },
+          {
+            "cliente": "MT_282",
+            "cluster": 5,
+            "silhueta": -0.1023
+          },
+          {
+            "cliente": "MT_321",
+            "cluster": 6,
+            "silhueta": -0.0967
+          },
+          {
+            "cliente": "MT_277",
+            "cluster": 6,
+            "silhueta": -0.0841
+          },
+          {
+            "cliente": "MT_246",
+            "cluster": 6,
+            "silhueta": -0.0746
+          },
+          {
+            "cliente": "MT_256",
+            "cluster": 6,
+            "silhueta": -0.0658
+          },
+          {
+            "cliente": "MT_206",
+            "cluster": 6,
+            "silhueta": -0.0635
+          },
+          {
+            "cliente": "MT_314",
+            "cluster": 5,
+            "silhueta": -0.06
+          },
+          {
+            "cliente": "MT_231",
+            "cluster": 6,
+            "silhueta": -0.058
+          },
+          {
+            "cliente": "MT_275",
+            "cluster": 6,
+            "silhueta": -0.0452
+          },
+          {
+            "cliente": "MT_212",
+            "cluster": 6,
+            "silhueta": -0.0446
+          },
+          {
+            "cliente": "MT_227",
+            "cluster": 4,
+            "silhueta": -0.0443
+          },
+          {
+            "cliente": "MT_306",
+            "cluster": 6,
+            "silhueta": -0.0417
+          },
+          {
+            "cliente": "MT_292",
+            "cluster": 3,
+            "silhueta": -0.0414
+          },
+          {
+            "cliente": "MT_182",
+            "cluster": 4,
+            "silhueta": -0.0399
+          },
+          {
+            "cliente": "MT_313",
+            "cluster": 6,
+            "silhueta": -0.0369
+          },
+          {
+            "cliente": "MT_286",
+            "cluster": 6,
+            "silhueta": -0.0368
+          },
+          {
+            "cliente": "MT_261",
+            "cluster": 6,
+            "silhueta": -0.0345
+          },
+          {
+            "cliente": "MT_189",
+            "cluster": 5,
+            "silhueta": -0.0344
+          },
+          {
+            "cliente": "MT_248",
+            "cluster": 6,
+            "silhueta": -0.0265
+          },
+          {
+            "cliente": "MT_163",
+            "cluster": 6,
+            "silhueta": -0.0256
+          },
+          {
+            "cliente": "MT_328",
+            "cluster": 5,
+            "silhueta": -0.024
+          },
+          {
+            "cliente": "MT_252",
+            "cluster": 6,
+            "silhueta": -0.0201
+          },
+          {
+            "cliente": "MT_202",
+            "cluster": 6,
+            "silhueta": -0.0181
+          },
+          {
+            "cliente": "MT_300",
+            "cluster": 6,
+            "silhueta": -0.0167
+          },
+          {
+            "cliente": "MT_124",
+            "cluster": 6,
+            "silhueta": -0.016
+          },
+          {
+            "cliente": "MT_215",
+            "cluster": 4,
+            "silhueta": -0.0024
+          },
+          {
+            "cliente": "MT_245",
+            "cluster": 6,
+            "silhueta": -0.0024
+          },
+          {
+            "cliente": "MT_274",
+            "cluster": 5,
+            "silhueta": -0.0022
+          },
+          {
+            "cliente": "MT_317",
+            "cluster": 6,
+            "silhueta": -0.002
+          },
+          {
+            "cliente": "MT_208",
+            "cluster": 6,
+            "silhueta": -0.0019
+          },
+          {
+            "cliente": "MT_156",
+            "cluster": 1,
+            "silhueta": -0.0006
+          }
+        ]
+      },
+      "7": {
+        "k": 7,
+        "altura_corte_dendrograma": 53.0572,
+        "silhueta_media": 0.071,
+        "n_negativos": 27,
+        "tamanhos_clusters": [
+          7,
+          3,
+          10,
+          44,
+          43,
+          29,
+          18
+        ],
+        "clusters": [
+          {
+            "cluster": 1,
+            "tamanho": 7,
+            "silhueta_media": 0.1739,
+            "medoide": "MT_188"
+          },
+          {
+            "cluster": 2,
+            "tamanho": 3,
+            "silhueta_media": 0.4598,
+            "medoide": "MT_158"
+          },
+          {
+            "cluster": 3,
+            "tamanho": 10,
+            "silhueta_media": 0.0698,
+            "medoide": "MT_267"
+          },
+          {
+            "cluster": 4,
+            "tamanho": 44,
+            "silhueta_media": 0.0739,
+            "medoide": "MT_318"
+          },
+          {
+            "cluster": 5,
+            "tamanho": 43,
+            "silhueta_media": 0.0404,
+            "medoide": "MT_326"
+          },
+          {
+            "cluster": 6,
+            "tamanho": 29,
+            "silhueta_media": 0.0879,
+            "medoide": "MT_208"
+          },
+          {
+            "cluster": 7,
+            "tamanho": 18,
+            "silhueta_media": 0.0056,
+            "medoide": "MT_306"
+          }
+        ],
+        "series_negativas": [
+          {
+            "cliente": "MT_314",
+            "cluster": 5,
+            "silhueta": -0.1449
+          },
+          {
+            "cliente": "MT_328",
+            "cluster": 5,
+            "silhueta": -0.1279
+          },
+          {
+            "cliente": "MT_175",
+            "cluster": 5,
+            "silhueta": -0.1265
+          },
+          {
+            "cliente": "MT_282",
+            "cluster": 5,
+            "silhueta": -0.1023
+          },
+          {
+            "cliente": "MT_256",
+            "cluster": 7,
+            "silhueta": -0.0946
+          },
+          {
+            "cliente": "MT_259",
+            "cluster": 5,
+            "silhueta": -0.083
+          },
+          {
+            "cliente": "MT_274",
+            "cluster": 5,
+            "silhueta": -0.0828
+          },
+          {
+            "cliente": "MT_264",
+            "cluster": 7,
+            "silhueta": -0.0827
+          },
+          {
+            "cliente": "MT_330",
+            "cluster": 4,
+            "silhueta": -0.0651
+          },
+          {
+            "cliente": "MT_323",
+            "cluster": 6,
+            "silhueta": -0.0561
+          },
+          {
+            "cliente": "MT_248",
+            "cluster": 7,
+            "silhueta": -0.0554
+          },
+          {
+            "cliente": "MT_189",
+            "cluster": 5,
+            "silhueta": -0.0511
+          },
+          {
+            "cliente": "MT_312",
+            "cluster": 7,
+            "silhueta": -0.0468
+          },
+          {
+            "cliente": "MT_227",
+            "cluster": 4,
+            "silhueta": -0.0443
+          },
+          {
+            "cliente": "MT_292",
+            "cluster": 3,
+            "silhueta": -0.0414
+          },
+          {
+            "cliente": "MT_182",
+            "cluster": 4,
+            "silhueta": -0.0399
+          },
+          {
+            "cliente": "MT_200",
+            "cluster": 4,
+            "silhueta": -0.0336
+          },
+          {
+            "cliente": "MT_124",
+            "cluster": 7,
+            "silhueta": -0.0305
+          },
+          {
+            "cliente": "MT_196",
+            "cluster": 5,
+            "silhueta": -0.0292
+          },
+          {
+            "cliente": "MT_238",
+            "cluster": 7,
+            "silhueta": -0.0275
+          },
+          {
+            "cliente": "MT_329",
+            "cluster": 5,
+            "silhueta": -0.0271
+          },
+          {
+            "cliente": "MT_194",
+            "cluster": 5,
+            "silhueta": -0.0257
+          },
+          {
+            "cliente": "MT_213",
+            "cluster": 5,
+            "silhueta": -0.0255
+          },
+          {
+            "cliente": "MT_231",
+            "cluster": 6,
+            "silhueta": -0.0131
+          },
+          {
+            "cliente": "MT_169",
+            "cluster": 4,
+            "silhueta": -0.0073
+          },
+          {
+            "cliente": "MT_215",
+            "cluster": 4,
+            "silhueta": -0.0024
+          },
+          {
+            "cliente": "MT_156",
+            "cluster": 1,
+            "silhueta": -0.0006
+          }
+        ]
+      },
+      "8": {
+        "k": 8,
+        "altura_corte_dendrograma": 49.1385,
+        "silhueta_media": 0.0615,
+        "n_negativos": 39,
+        "tamanhos_clusters": [
+          7,
+          3,
+          10,
+          13,
+          31,
+          43,
+          29,
+          18
+        ],
+        "clusters": [
+          {
+            "cluster": 1,
+            "tamanho": 7,
+            "silhueta_media": 0.112,
+            "medoide": "MT_188"
+          },
+          {
+            "cluster": 2,
+            "tamanho": 3,
+            "silhueta_media": 0.4598,
+            "medoide": "MT_158"
+          },
+          {
+            "cluster": 3,
+            "tamanho": 10,
+            "silhueta_media": 0.0698,
+            "medoide": "MT_267"
+          },
+          {
+            "cluster": 4,
+            "tamanho": 13,
+            "silhueta_media": 0.0275,
+            "medoide": "MT_192"
+          },
+          {
+            "cluster": 5,
+            "tamanho": 31,
+            "silhueta_media": 0.1402,
+            "medoide": "MT_318"
+          },
+          {
+            "cluster": 6,
+            "tamanho": 43,
+            "silhueta_media": 0.0152,
+            "medoide": "MT_326"
+          },
+          {
+            "cluster": 7,
+            "tamanho": 29,
+            "silhueta_media": 0.0422,
+            "medoide": "MT_208"
+          },
+          {
+            "cluster": 8,
+            "tamanho": 18,
+            "silhueta_media": 0.0015,
+            "medoide": "MT_306"
+          }
+        ],
+        "series_negativas": [
+          {
+            "cliente": "MT_314",
+            "cluster": 6,
+            "silhueta": -0.1913
+          },
+          {
+            "cliente": "MT_282",
+            "cluster": 6,
+            "silhueta": -0.1363
+          },
+          {
+            "cliente": "MT_328",
+            "cluster": 6,
+            "silhueta": -0.1279
+          },
+          {
+            "cliente": "MT_175",
+            "cluster": 6,
+            "silhueta": -0.1266
+          },
+          {
+            "cliente": "MT_323",
+            "cluster": 7,
+            "silhueta": -0.1169
+          },
+          {
+            "cliente": "MT_196",
+            "cluster": 6,
+            "silhueta": -0.1135
+          },
+          {
+            "cliente": "MT_259",
+            "cluster": 6,
+            "silhueta": -0.1076
+          },
+          {
+            "cliente": "MT_236",
+            "cluster": 4,
+            "silhueta": -0.1071
+          },
+          {
+            "cliente": "MT_124",
+            "cluster": 8,
+            "silhueta": -0.1036
+          },
+          {
+            "cliente": "MT_256",
+            "cluster": 8,
+            "silhueta": -0.0946
+          },
+          {
+            "cliente": "MT_274",
+            "cluster": 6,
+            "silhueta": -0.0828
+          },
+          {
+            "cliente": "MT_264",
+            "cluster": 8,
+            "silhueta": -0.0827
+          },
+          {
+            "cliente": "MT_283",
+            "cluster": 4,
+            "silhueta": -0.0752
+          },
+          {
+            "cliente": "MT_201",
+            "cluster": 4,
+            "silhueta": -0.066
+          },
+          {
+            "cliente": "MT_277",
+            "cluster": 7,
+            "silhueta": -0.0634
+          },
+          {
+            "cliente": "MT_321",
+            "cluster": 7,
+            "silhueta": -0.0633
+          },
+          {
+            "cliente": "MT_231",
+            "cluster": 7,
+            "silhueta": -0.0606
+          },
+          {
+            "cliente": "MT_199",
+            "cluster": 7,
+            "silhueta": -0.0583
+          },
+          {
+            "cliente": "MT_248",
+            "cluster": 8,
+            "silhueta": -0.0554
+          },
+          {
+            "cliente": "MT_189",
+            "cluster": 6,
+            "silhueta": -0.0528
+          },
+          {
+            "cliente": "MT_312",
+            "cluster": 8,
+            "silhueta": -0.0468
+          },
+          {
+            "cliente": "MT_292",
+            "cluster": 3,
+            "silhueta": -0.0414
+          },
+          {
+            "cliente": "MT_266",
+            "cluster": 6,
+            "silhueta": -0.0353
+          },
+          {
+            "cliente": "MT_238",
+            "cluster": 8,
+            "silhueta": -0.0275
+          },
+          {
+            "cliente": "MT_329",
+            "cluster": 6,
+            "silhueta": -0.0271
+          },
+          {
+            "cliente": "MT_237",
+            "cluster": 4,
+            "silhueta": -0.0268
+          },
+          {
+            "cliente": "MT_194",
+            "cluster": 6,
+            "silhueta": -0.0257
+          },
+          {
+            "cliente": "MT_246",
+            "cluster": 7,
+            "silhueta": -0.0257
+          },
+          {
+            "cliente": "MT_213",
+            "cluster": 6,
+            "silhueta": -0.0255
+          },
+          {
+            "cliente": "MT_310",
+            "cluster": 6,
+            "silhueta": -0.0253
+          },
+          {
+            "cliente": "MT_278",
+            "cluster": 6,
+            "silhueta": -0.0222
+          },
+          {
+            "cliente": "MT_211",
+            "cluster": 7,
+            "silhueta": -0.014
+          },
+          {
+            "cliente": "MT_243",
+            "cluster": 6,
+            "silhueta": -0.013
+          },
+          {
+            "cliente": "MT_270",
+            "cluster": 6,
+            "silhueta": -0.0118
+          },
+          {
+            "cliente": "MT_313",
+            "cluster": 7,
+            "silhueta": -0.0117
+          },
+          {
+            "cliente": "MT_239",
+            "cluster": 4,
+            "silhueta": -0.0052
+          },
+          {
+            "cliente": "MT_251",
+            "cluster": 6,
+            "silhueta": -0.005
+          },
+          {
+            "cliente": "MT_156",
+            "cluster": 1,
+            "silhueta": -0.0006
+          },
+          {
+            "cliente": "MT_202",
+            "cluster": 7,
+            "silhueta": -0.0002
+          }
+        ]
+      },
+      "9": {
+        "k": 9,
+        "altura_corte_dendrograma": 47.8146,
+        "silhueta_media": 0.0646,
+        "n_negativos": 43,
+        "tamanhos_clusters": [
+          7,
+          3,
+          10,
+          13,
+          31,
+          18,
+          25,
+          29,
+          18
+        ],
+        "clusters": [
+          {
+            "cluster": 1,
+            "tamanho": 7,
+            "silhueta_media": 0.112,
+            "medoide": "MT_188"
+          },
+          {
+            "cluster": 2,
+            "tamanho": 3,
+            "silhueta_media": 0.4598,
+            "medoide": "MT_158"
+          },
+          {
+            "cluster": 3,
+            "tamanho": 10,
+            "silhueta_media": 0.0648,
+            "medoide": "MT_267"
+          },
+          {
+            "cluster": 4,
+            "tamanho": 13,
+            "silhueta_media": 0.0275,
+            "medoide": "MT_192"
+          },
+          {
+            "cluster": 5,
+            "tamanho": 31,
+            "silhueta_media": 0.128,
+            "medoide": "MT_318"
+          },
+          {
+            "cluster": 6,
+            "tamanho": 18,
+            "silhueta_media": -0.0387,
+            "medoide": "MT_287"
+          },
+          {
+            "cluster": 7,
+            "tamanho": 25,
+            "silhueta_media": 0.1146,
+            "medoide": "MT_326"
+          },
+          {
+            "cluster": 8,
+            "tamanho": 29,
+            "silhueta_media": 0.0361,
+            "medoide": "MT_208"
+          },
+          {
+            "cluster": 9,
+            "tamanho": 18,
+            "silhueta_media": -0.0224,
+            "medoide": "MT_306"
+          }
+        ],
+        "series_negativas": [
+          {
+            "cliente": "MT_248",
+            "cluster": 9,
+            "silhueta": -0.1533
+          },
+          {
+            "cliente": "MT_287",
+            "cluster": 6,
+            "silhueta": -0.1435
+          },
+          {
+            "cliente": "MT_256",
+            "cluster": 9,
+            "silhueta": -0.1388
+          },
+          {
+            "cliente": "MT_323",
+            "cluster": 8,
+            "silhueta": -0.1169
+          },
+          {
+            "cliente": "MT_236",
+            "cluster": 4,
+            "silhueta": -0.1071
+          },
+          {
+            "cliente": "MT_124",
+            "cluster": 9,
+            "silhueta": -0.1036
+          },
+          {
+            "cliente": "MT_298",
+            "cluster": 6,
+            "silhueta": -0.0943
+          },
+          {
+            "cliente": "MT_314",
+            "cluster": 7,
+            "silhueta": -0.0862
+          },
+          {
+            "cliente": "MT_242",
+            "cluster": 6,
+            "silhueta": -0.0859
+          },
+          {
+            "cliente": "MT_264",
+            "cluster": 9,
+            "silhueta": -0.0827
+          },
+          {
+            "cliente": "MT_282",
+            "cluster": 6,
+            "silhueta": -0.0781
+          },
+          {
+            "cliente": "MT_175",
+            "cluster": 6,
+            "silhueta": -0.0766
+          },
+          {
+            "cliente": "MT_283",
+            "cluster": 4,
+            "silhueta": -0.0752
+          },
+          {
+            "cliente": "MT_312",
+            "cluster": 9,
+            "silhueta": -0.0748
+          },
+          {
+            "cliente": "MT_210",
+            "cluster": 6,
+            "silhueta": -0.0718
+          },
+          {
+            "cliente": "MT_292",
+            "cluster": 3,
+            "silhueta": -0.0667
+          },
+          {
+            "cliente": "MT_201",
+            "cluster": 4,
+            "silhueta": -0.066
+          },
+          {
+            "cliente": "MT_277",
+            "cluster": 8,
+            "silhueta": -0.0634
+          },
+          {
+            "cliente": "MT_321",
+            "cluster": 8,
+            "silhueta": -0.0633
+          },
+          {
+            "cliente": "MT_231",
+            "cluster": 8,
+            "silhueta": -0.0606
+          },
+          {
+            "cliente": "MT_261",
+            "cluster": 9,
+            "silhueta": -0.059
+          },
+          {
+            "cliente": "MT_199",
+            "cluster": 8,
+            "silhueta": -0.0583
+          },
+          {
+            "cliente": "MT_274",
+            "cluster": 6,
+            "silhueta": -0.0521
+          },
+          {
+            "cliente": "MT_189",
+            "cluster": 6,
+            "silhueta": -0.0519
+          },
+          {
+            "cliente": "MT_266",
+            "cluster": 6,
+            "silhueta": -0.0512
+          },
+          {
+            "cliente": "MT_269",
+            "cluster": 6,
+            "silhueta": -0.0408
+          },
+          {
+            "cliente": "MT_329",
+            "cluster": 6,
+            "silhueta": -0.0401
+          },
+          {
+            "cliente": "MT_303",
+            "cluster": 6,
+            "silhueta": -0.038
+          },
+          {
+            "cliente": "MT_328",
+            "cluster": 7,
+            "silhueta": -0.035
+          },
+          {
+            "cliente": "MT_238",
+            "cluster": 9,
+            "silhueta": -0.0275
+          },
+          {
+            "cliente": "MT_306",
+            "cluster": 9,
+            "silhueta": -0.0275
+          },
+          {
+            "cliente": "MT_237",
+            "cluster": 4,
+            "silhueta": -0.0268
+          },
+          {
+            "cliente": "MT_246",
+            "cluster": 8,
+            "silhueta": -0.0257
+          },
+          {
+            "cliente": "MT_252",
+            "cluster": 9,
+            "silhueta": -0.0232
+          },
+          {
+            "cliente": "MT_211",
+            "cluster": 8,
+            "silhueta": -0.014
+          },
+          {
+            "cliente": "MT_313",
+            "cluster": 8,
+            "silhueta": -0.0117
+          },
+          {
+            "cliente": "MT_195",
+            "cluster": 6,
+            "silhueta": -0.0099
+          },
+          {
+            "cliente": "MT_227",
+            "cluster": 5,
+            "silhueta": -0.0059
+          },
+          {
+            "cliente": "MT_239",
+            "cluster": 4,
+            "silhueta": -0.0052
+          },
+          {
+            "cliente": "MT_232",
+            "cluster": 9,
+            "silhueta": -0.005
+          },
+          {
+            "cliente": "MT_310",
+            "cluster": 7,
+            "silhueta": -0.0013
+          },
+          {
+            "cliente": "MT_156",
+            "cluster": 1,
+            "silhueta": -0.0006
+          },
+          {
+            "cliente": "MT_202",
+            "cluster": 8,
+            "silhueta": -0.0002
+          }
+        ]
+      },
+      "10": {
+        "k": 10,
+        "altura_corte_dendrograma": 46.4429,
+        "silhueta_media": 0.0646,
+        "n_negativos": 43,
+        "tamanhos_clusters": [
+          2,
+          5,
+          3,
+          10,
+          13,
+          31,
+          18,
+          25,
+          29,
+          18
+        ],
+        "clusters": [
+          {
+            "cluster": 1,
+            "tamanho": 2,
+            "silhueta_media": -0.0168,
+            "medoide": "MT_156"
+          },
+          {
+            "cluster": 2,
+            "tamanho": 5,
+            "silhueta_media": 0.1644,
+            "medoide": "MT_188"
+          },
+          {
+            "cluster": 3,
+            "tamanho": 3,
+            "silhueta_media": 0.4598,
+            "medoide": "MT_158"
+          },
+          {
+            "cluster": 4,
+            "tamanho": 10,
+            "silhueta_media": 0.0648,
+            "medoide": "MT_267"
+          },
+          {
+            "cluster": 5,
+            "tamanho": 13,
+            "silhueta_media": 0.0275,
+            "medoide": "MT_192"
+          },
+          {
+            "cluster": 6,
+            "tamanho": 31,
+            "silhueta_media": 0.128,
+            "medoide": "MT_318"
+          },
+          {
+            "cluster": 7,
+            "tamanho": 18,
+            "silhueta_media": -0.0387,
+            "medoide": "MT_287"
+          },
+          {
+            "cluster": 8,
+            "tamanho": 25,
+            "silhueta_media": 0.1146,
+            "medoide": "MT_326"
+          },
+          {
+            "cluster": 9,
+            "tamanho": 29,
+            "silhueta_media": 0.0361,
+            "medoide": "MT_208"
+          },
+          {
+            "cluster": 10,
+            "tamanho": 18,
+            "silhueta_media": -0.0224,
+            "medoide": "MT_306"
+          }
+        ],
+        "series_negativas": [
+          {
+            "cliente": "MT_248",
+            "cluster": 10,
+            "silhueta": -0.1533
+          },
+          {
+            "cliente": "MT_287",
+            "cluster": 7,
+            "silhueta": -0.1435
+          },
+          {
+            "cliente": "MT_256",
+            "cluster": 10,
+            "silhueta": -0.1388
+          },
+          {
+            "cliente": "MT_323",
+            "cluster": 9,
+            "silhueta": -0.1169
+          },
+          {
+            "cliente": "MT_236",
+            "cluster": 5,
+            "silhueta": -0.1071
+          },
+          {
+            "cliente": "MT_124",
+            "cluster": 10,
+            "silhueta": -0.1036
+          },
+          {
+            "cliente": "MT_298",
+            "cluster": 7,
+            "silhueta": -0.0943
+          },
+          {
+            "cliente": "MT_314",
+            "cluster": 8,
+            "silhueta": -0.0862
+          },
+          {
+            "cliente": "MT_242",
+            "cluster": 7,
+            "silhueta": -0.0859
+          },
+          {
+            "cliente": "MT_264",
+            "cluster": 10,
+            "silhueta": -0.0827
+          },
+          {
+            "cliente": "MT_282",
+            "cluster": 7,
+            "silhueta": -0.0781
+          },
+          {
+            "cliente": "MT_175",
+            "cluster": 7,
+            "silhueta": -0.0766
+          },
+          {
+            "cliente": "MT_283",
+            "cluster": 5,
+            "silhueta": -0.0752
+          },
+          {
+            "cliente": "MT_312",
+            "cluster": 10,
+            "silhueta": -0.0748
+          },
+          {
+            "cliente": "MT_210",
+            "cluster": 7,
+            "silhueta": -0.0718
+          },
+          {
+            "cliente": "MT_292",
+            "cluster": 4,
+            "silhueta": -0.0667
+          },
+          {
+            "cliente": "MT_201",
+            "cluster": 5,
+            "silhueta": -0.066
+          },
+          {
+            "cliente": "MT_277",
+            "cluster": 9,
+            "silhueta": -0.0634
+          },
+          {
+            "cliente": "MT_321",
+            "cluster": 9,
+            "silhueta": -0.0633
+          },
+          {
+            "cliente": "MT_231",
+            "cluster": 9,
+            "silhueta": -0.0606
+          },
+          {
+            "cliente": "MT_261",
+            "cluster": 10,
+            "silhueta": -0.059
+          },
+          {
+            "cliente": "MT_199",
+            "cluster": 9,
+            "silhueta": -0.0583
+          },
+          {
+            "cliente": "MT_274",
+            "cluster": 7,
+            "silhueta": -0.0521
+          },
+          {
+            "cliente": "MT_189",
+            "cluster": 7,
+            "silhueta": -0.0519
+          },
+          {
+            "cliente": "MT_266",
+            "cluster": 7,
+            "silhueta": -0.0512
+          },
+          {
+            "cliente": "MT_269",
+            "cluster": 7,
+            "silhueta": -0.0408
+          },
+          {
+            "cliente": "MT_329",
+            "cluster": 7,
+            "silhueta": -0.0401
+          },
+          {
+            "cliente": "MT_156",
+            "cluster": 1,
+            "silhueta": -0.0382
+          },
+          {
+            "cliente": "MT_303",
+            "cluster": 7,
+            "silhueta": -0.038
+          },
+          {
+            "cliente": "MT_328",
+            "cluster": 8,
+            "silhueta": -0.035
+          },
+          {
+            "cliente": "MT_238",
+            "cluster": 10,
+            "silhueta": -0.0275
+          },
+          {
+            "cliente": "MT_306",
+            "cluster": 10,
+            "silhueta": -0.0275
+          },
+          {
+            "cliente": "MT_237",
+            "cluster": 5,
+            "silhueta": -0.0268
+          },
+          {
+            "cliente": "MT_246",
+            "cluster": 9,
+            "silhueta": -0.0257
+          },
+          {
+            "cliente": "MT_252",
+            "cluster": 10,
+            "silhueta": -0.0232
+          },
+          {
+            "cliente": "MT_211",
+            "cluster": 9,
+            "silhueta": -0.014
+          },
+          {
+            "cliente": "MT_313",
+            "cluster": 9,
+            "silhueta": -0.0117
+          },
+          {
+            "cliente": "MT_195",
+            "cluster": 7,
+            "silhueta": -0.0099
+          },
+          {
+            "cliente": "MT_227",
+            "cluster": 6,
+            "silhueta": -0.0059
+          },
+          {
+            "cliente": "MT_239",
+            "cluster": 5,
+            "silhueta": -0.0052
+          },
+          {
+            "cliente": "MT_232",
+            "cluster": 10,
+            "silhueta": -0.005
+          },
+          {
+            "cliente": "MT_310",
+            "cluster": 8,
+            "silhueta": -0.0013
+          },
+          {
+            "cliente": "MT_202",
+            "cluster": 9,
+            "silhueta": -0.0002
+          }
+        ]
+      }
+    }
+  },
+  "figuras_geradas": [
+    "Documentacao/figuras/etapa1_dendrograma.png",
+    "Documentacao/figuras/etapa1_silhueta_por_k.png",
+    "Documentacao/figuras/etapa1_silhueta_detalhada.png",
+    "Documentacao/figuras/etapa1_perfis_clusters.png"
+  ]
+}

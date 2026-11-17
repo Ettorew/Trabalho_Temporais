@@ -1,0 +1,11 @@
+escopo,serie_transformada,d,D,regressao,estatistica_adf,p_valor,p_valor_fmt,lags_usados,n_obs,critico_1pct,critico_5pct,critico_10pct,estacionaria_5pct
+treino,"Nivel (d=0, D=0)",0,0,c,-2.305,0.1703640607132027,0.1704,22,1410,-3.435,-2.8636,-2.5679,False
+treino,"Nivel (d=0, D=0)",0,0,ct,-2.6402,0.26174776820774515,0.2617,22,1410,-3.9652,-3.4136,-3.1289,False
+treino,"Diferenca regular (d=1, D=0)",1,0,c,-11.4357,6.354359605622099e-21,6.3544e-21,21,1410,-3.435,-2.8636,-2.5679,True
+treino,"Diferenca sazonal (d=0, D=1, s=7)",0,1,c,-9.3511,8.293704654443095e-16,8.2937e-16,21,1404,-3.435,-2.8636,-2.5679,True
+treino,"Diferenca composta (d=1, D=1, s=7)",1,1,c,-15.0192,1.0281940696659635e-27,1.0282e-27,22,1402,-3.435,-2.8636,-2.5679,True
+serie_completa,"Nivel (d=0, D=0)",0,0,c,-2.2167,0.20025194451181016,0.2003,22,1438,-3.4349,-2.8636,-2.5678,False
+serie_completa,"Nivel (d=0, D=0)",0,0,ct,-2.6256,0.2682712484438872,0.2683,22,1438,-3.9651,-3.4135,-3.1288,False
+serie_completa,"Diferenca regular (d=1, D=0)",1,0,c,-11.5172,4.123435846096778e-21,4.1234e-21,21,1438,-3.4349,-2.8636,-2.5678,True
+serie_completa,"Diferenca sazonal (d=0, D=1, s=7)",0,1,c,-9.4864,3.75318431039171e-16,3.7532e-16,21,1432,-3.4349,-2.8636,-2.5678,True
+serie_completa,"Diferenca composta (d=1, D=1, s=7)",1,1,c,-14.1791,1.942926422652302e-26,1.9429e-26,24,1428,-3.4349,-2.8636,-2.5678,True
