@@ -215,3 +215,16 @@ Este arquivo mantém um histórico **detalhado, porém direto**, de todas as alt
 - **Execução e resultados observados:**
   - Executados em sequência `/home/ettore/miniconda3/envs/datascience/bin/python Codigo/01_agrupamento.py && ... Codigo/02_matrix_profile.py && ... Codigo/03_arima.py` com código de saída `0`.
   - Conferidas visualmente as figuras regeneradas (`etapa1_perfis_clusters.png`, `etapa2_motifs_sobrepostos.png`, `etapa3_diagnostico_residuos.png`, `etapa3_previsao_vs_teste_baselines.png`).
+
+---
+
+## 2026-11-17 — Documento dedicado sobre o Problema e a Base de Dados
+
+- **Etapa do barema:** Preparação e tratamento dos dados (3,0 pts) e Entregáveis e organização geral (3,0 pts) — documentação autônoma da formulação do problema e da especificação técnica da base *ElectricityLoadDiagrams20112014*.
+- **O que foi feito e por quê:**
+  - Criado [Documentacao/problema_e_base_de_dados.md](file:///home/ettore/Documentos/PUC/Temporais/Trabalho/Documentacao/problema_e_base_de_dados.md) consolidando em um documento específico: (1) contexto do setor elétrico português e os 4 desafios analíticos do trabalho; (2) metadados oficiais completos da base (UCI #321, DOI `10.24432/C58C86`, licença CC BY 4.0, dimensões e período); (3) dicionário de variáveis e conversão física kW ↔ kWh/h; (4) diagnóstico estrutural (zeros pré-adesão/pós-desligamento/internos, DST de março e outubro, microfalhas e réplicas exatas no bruto); (5) critérios objetivos de seleção do painel de `154` clientes completos e da série representativa `MT_206`; e (6) catálogo de arquivos tratados/resumos gerados.
+  - Atualizada a árvore do repositório em [README.md](file:///home/ettore/Documentos/PUC/Temporais/Trabalho/README.md).
+- **Arquivos criados ou alterados:**
+  - `Documentacao/problema_e_base_de_dados.md` (criado)
+  - `README.md` e `EXPLICACAO.md` (atualizados)
+- **Validação:** Todos os números conferidos contra `Resultados/metricas_preparacao.json` e `Resultados/resumo_clientes_preparacao.csv` (incluindo `MT_131`, `MT_132`, `MT_288` e `MT_206`).

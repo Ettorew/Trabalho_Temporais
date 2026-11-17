@@ -32,6 +32,7 @@ Pipeline completo de preparação, agrupamento temporal (`AGNES + DTW + Silhueta
 │   ├── bruto/                 # Base original LD2011_2014.txt (intocada)
 │   └── tratado/               # Arquivos Parquet regularizados ('1h' e '1D')
 ├── Documentacao/
+│   ├── problema_e_base_de_dados.md # Caracterização do problema e especificação da base
 │   ├── relatorio.md           # Relatório técnico completo
 │   └── figuras/               # Figuras PNG geradas pelo pipeline
 └── Resultados/                # Métricas JSON e tabelas CSV de resumo
